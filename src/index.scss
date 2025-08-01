@@ -1,7 +1,97 @@
 $font-size: 1rem;
-$font-color: lch(28 99 35);
+$font-color: #092c4c;
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
 
 html {
   font-size: $font-size;
   color: $font-color;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.tech__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &--css::before {
+    background-image: url("./assets/icons/css.svg");
+  }
+
+  &--html::before {
+    background-image: url("./assets/icons/html.svg");
+  }
+
+  &--js::before {
+    background-image: url("./assets/icons/js.svg");
+  }
+
+  &--ts::before {
+    background-image: url("./assets/icons/ts.svg");
+  }
+
+  &--react::before {
+    background-image: url("./assets/icons/react.svg");
+  }
+
+  &--redux::before {
+    background-image: url("./assets/icons/redux.svg");
+  }
+
+  &--react_router::before {
+    background-image: url("./assets/icons/react-router.svg");
+  }
+
+  &--react_query::before {
+    background-image: url("./assets/icons/react-query.svg");
+  }
+
+  // tools
+
+  &--vs_code::before {
+    background-image: url("./assets/icons/vscode.svg");
+  }
+
+  &--figma::before {
+    background-image: url("./assets/icons/figma.svg");
+  }
 }

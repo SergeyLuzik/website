@@ -3,22 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Сергей Лузик</title>
-    <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            width: 100vw;
-        }
-      h1 {
-          font-size: 50px;
-          text-align: center;
-      }
-    </style>
   </head>
   <body>
-    <h1>Сайт в разработке</h1>
+    <header>
+      <span>Привет, я Сергей</span>
+      <span>Web-разработчик</span>
+    </header>
+    <main>
+      <section class="tech">
+        <h2 class="tech__title">Технологии</h2>
+        <ul class="tech__list">
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--css">
+              <p class="tech-item__name">CSS</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--html">
+              <p class="tech-item__name">HTML</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--js">
+              <p class="tech-item__name">JS</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--ts">
+              <p class="tech-item__name">TS</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--react">
+              <p class="tech-item__name">React</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--redux">
+              <p class="tech-item__name">Redux</p>
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href=""
+              class="tech-item tech-item--react_router"
+            >
+              <p class="tech-item__name">React Router</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--react_query">
+              <p class="tech-item__name">React Query</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="tech">
+        <h2 class="tech__title">Инструменты</h2>
+        <ul class="tech__list">
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--vs_code">
+              <p class="tech-item__name">VS Code</p>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="" class="tech-item tech-item--figma">
+              <p class="tech-item__name">Figma</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>

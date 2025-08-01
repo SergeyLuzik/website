@@ -37,7 +37,7 @@ export default {
         test: /\.svg$/,
         type: "asset/resource",
         generator: {
-          filename: path.resolve("icons", "[name].[contenthash:8][ext]"),
+          filename: "icons/[name].[contenthash][ext]",
         },
       },
     ],
