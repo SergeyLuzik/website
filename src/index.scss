@@ -53,12 +53,16 @@ html {
     background-repeat: no-repeat;
   }
 
+  &--html::before {
+    background-image: url("./assets/icons/html.svg");
+  }
+
   &--css::before {
     background-image: url("./assets/icons/css.svg");
   }
 
-  &--html::before {
-    background-image: url("./assets/icons/html.svg");
+  &--sass::before {
+    background-image: url("./assets/icons/sass.svg");
   }
 
   &--js::before {
@@ -73,6 +77,26 @@ html {
     background-image: url("./assets/icons/react.svg");
   }
 
+  &--styled_components::before {
+    background-image: url("./assets/icons/styled-components.svg");
+  }
+
+  &--tailwind::before {
+    background-image: url("./assets/icons/tailwind.svg");
+  }
+
+  &--css_modules::before {
+    background-image: url("./assets/icons/css-modules.svg");
+  }
+
+  &--webpack::before {
+    background-image: url("./assets/icons/webpack.svg");
+  }
+
+  &--vite::before {
+    background-image: url("./assets/icons/vite.svg");
+  }
+
   &--redux::before {
     background-image: url("./assets/icons/redux.svg");
   }
@@ -85,13 +109,181 @@ html {
     background-image: url("./assets/icons/react-query.svg");
   }
 
+  &--ant_design::before {
+    background-image: url("./assets/icons/antd.svg");
+  }
+
+  &--fsd::before {
+    background-image: url("./assets/icons/fsd.svg");
+  }
+
+  &--react_hook_form::before {
+    background-image: url("./assets/icons/react-hook-form.svg");
+  }
+
+  &--zod::before {
+    background-image: url("./assets/icons/zod.svg");
+  }
+
+  &--webpack::before {
+    background-image: url("./assets/icons/webpack.svg");
+  }
+
+  &--npm::before {
+    background-image: url("./assets/icons/npm.svg");
+  }
+
+  &--git::before {
+    background-image: url("./assets/icons/git.svg");
+  }
+
+  &--docker::before {
+    background-image: url("./assets/icons/docker.svg");
+  }
+
+  &--eslint::before {
+    background-image: url("./assets/icons/eslint.svg");
+  }
+
+  &--prettier::before {
+    background-image: url("./assets/icons/prettier.svg");
+  }
+
+  &--passport_js::before {
+    background-image: url("./assets/icons/passport-js.svg");
+  }
+
+  &--node::before {
+    background-image: url("./assets/icons/node-js.svg");
+  }
+
+  &--express::before {
+    background-image: url("./assets/icons/express.svg");
+  }
+
+  &--prisma::before {
+    background-image: url("./assets/icons/prisma.svg");
+  }
+
+  &--postgres::before {
+    background-image: url("./assets/icons/postgres.svg");
+  }
+
+  &--git::before {
+    background-image: url("./assets/icons/git.svg");
+  }
+
+  &--npm::before {
+    background-image: url("./assets/icons/npm.svg");
+  }
+
+  &--jest::before {
+    background-image: url("./assets/icons/jest.svg");
+  }
+
+  &--react_testing_library::before {
+    background-image: url("./assets/icons/react-testing-library.svg");
+  }
+
+  &--autoprefixer::before {
+    background-image: url("./assets/icons/autoprefixer.svg");
+  }
+
+  &--storybook::before {
+    background-image: url("./assets/icons/storybook.svg");
+  }
+
+  &--axios::before {
+    background-image: url("./assets/icons/axios.svg");
+  }
+
+  &--material_ui::before {
+    background-image: url("./assets/icons/material-ui.svg");
+  }
+
+  &--stylelint::before {
+    background-image: url("./assets/icons/stylelint.svg");
+  }
+
   // tools
 
   &--vs_code::before {
     background-image: url("./assets/icons/vscode.svg");
   }
 
+  &--cursor::before {
+    background-image: url("./assets/icons/cursor.svg");
+  }
+
   &--figma::before {
     background-image: url("./assets/icons/figma.svg");
+  }
+
+  &--photoshop::before {
+    background-image: url("./assets/icons/photoshop.svg");
+  }
+
+  &--copilot::before {
+    background-image: url("./assets/icons/copilot.svg");
+  }
+
+  &--deepseek::before {
+    background-image: url("./assets/icons/deepseek.svg");
+  }
+
+  &--github::before {
+    background-image: url("./assets/icons/github.svg");
+  }
+
+  &--gitlab::before {
+    background-image: url("./assets/icons/gitlab.svg");
+  }
+
+  &--postman::before {
+    background-image: url("./assets/icons/postman.svg");
+  }
+
+  &--trello::before {
+    background-image: url("./assets/icons/trello.svg");
+  }
+
+  &--jira::before {
+    background-image: url("./assets/icons/jira.svg");
+  }
+
+  &--miro::before {
+    background-image: url("./assets/icons/miro.svg");
+  }
+
+  &--notion::before {
+    background-image: url("./assets/icons/notion.svg");
+  }
+
+  &--linux::before {
+    background-image: url("./assets/icons/linux.svg");
+  }
+
+  &--macos::before {
+    background-image: url("./assets/icons/apple.svg");
+  }
+
+  &--windows::before {
+    background-image: url("./assets/icons/windows.svg");
+  }
+
+  // future
+
+  &--next_js::before {
+    background-image: url("./assets/icons/next-js.svg");
+  }
+
+  &--vue::before {
+    background-image: url("./assets/icons/vue.svg");
+  }
+
+  // hobbies
+
+  &--arduino::before {
+    background-image: url("./assets/icons/arduino.svg");
   }
 }
