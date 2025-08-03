@@ -7,7 +7,6 @@ export default {
   output: {
     filename: "build.[contenthash:8].js",
     path: path.resolve("docs"),
-    assetModuleFilename: path.join("images", "[name].[contenthash][ext]"),
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -21,6 +20,10 @@ export default {
   module: {
     rules: [
       {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
         test: /\.(scss|css)$/,
         use: [
           MiniCssExtractPlugin.loader,
@@ -32,6 +35,9 @@ export default {
       {
         test: /\.(png|jpg|jpeg|gif|webp|avif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "images/[name].[contenthash][ext]",
+        },
       },
       {
         test: /\.svg$/,
