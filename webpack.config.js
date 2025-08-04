@@ -51,6 +51,6 @@ export default {
   devServer: {
     watchFiles: path.resolve("src"),
     port: 9000,
-    open: true,
+    // open: true,
   },
 };

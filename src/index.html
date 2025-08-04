@@ -12,11 +12,16 @@
     <title>Сергей Лузик</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header page-container">
       <h1 class="visually-hidden">Сергей Лузик - Web-разработчик</h1>
-      <section>
-        <p>Привет, я Сергей</p>
-        <p>Web-разработчик</p>
+      <section class="about">
+        <p class="about__greeting">Привет, я Сергей</p>
+        <p class="about__profession">Web-разработчик</p>
+        <p class="about__education">
+          БГТУ, Факультет информационных технологий, ИБ, красный диплом
+        </p>
+        <p class="about__experience">3+ года опыта</p>
+        <div class="about__contacts"></div>
       </section>
       <img
         width="300"
@@ -25,7 +30,7 @@
         alt="Сергей сидит перед Macbook"
       />
     </header>
-    <main>
+    <main class="page-container">
       <section class="tech">
         <h2 class="tech__title">Технологии</h2>
         <ul class="tech__list">
@@ -527,6 +532,6 @@
         </ul>
       </section>
     </main>
-    <footer></footer>
+    <footer class="page-container"></footer>
   </body>
 </html>
